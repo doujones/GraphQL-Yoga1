@@ -1,8 +1,15 @@
 const { GraphQLServer } = require('graphql-yoga')
+const { users, reviews, movies } = require('./Data')
+
 
 const server = new GraphQLServer({
   typeDefs,
-  resolvers
+  resolvers,
+  context: {
+    users,
+    reviews,
+    movies
+  }
 })
 
 server.start(() =>
