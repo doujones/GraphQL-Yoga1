@@ -1,0 +1,26 @@
+{
+  "name": "graphql-yoga1",
+  "version": "1.0.0",
+  "description": "GraphQL Server1",
+  "main": "Server.js",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doujones/GraphQL-Yoga1.git"
+  },
+  "keywords": [
+    "Me"
+  ],
+  "author": "William Boswell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doujones/GraphQL-Yoga1/issues"
+  },
+  "homepage": "https://github.com/doujones/GraphQL-Yoga1#readme"
+}
